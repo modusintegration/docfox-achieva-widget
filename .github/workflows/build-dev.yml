@@ -1,4 +1,4 @@
-name: Build and publish to Maven repo and ECR
+name: Build and publish to Github pages repo
 
 on:
   push:
@@ -40,4 +40,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
           BRANCH: gh-pages
-          FOLDER: deploy_dist/angular-demo
+          FOLDER: deploy_dist/docfox-achieva-widget
