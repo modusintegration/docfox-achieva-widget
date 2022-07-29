@@ -8,7 +8,7 @@ export interface Subject {
 }
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-root-widget',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
